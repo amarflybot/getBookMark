@@ -15,6 +15,7 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
  */
 @Configuration
 @EnableMongoRepositories(basePackageClasses = StoryRepository.class)
+
 public class ApplicationConfig {
 
     @Bean
